@@ -1,7 +1,21 @@
 #container{
 display: flex;
+background-color: peachpuff;
+flex-wrap: wrap;
+margin-left: 640px;
+margin-right: 500px;
+}
+
+.gridbox{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
 }
 
 body{
-    background-color: rgb(48, 98, 139);
+    background-color: peachpuff;
+}
+
+.gridbox:hover{
+    background-color: black;
 }

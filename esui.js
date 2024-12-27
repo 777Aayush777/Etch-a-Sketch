@@ -1,4 +1,8 @@
-const cunt = document.querySelector(".cunt");
+for(let i=0;i<=255;i++){
+const container = document.querySelector("#container");
 const box = document.createElement("div");
+box.classList="gridbox"
 
-cunt.appendChild(box);
+container.appendChild(box);
+
+}
