@@ -1,15 +1,18 @@
 #container{
+margin-top: 50px;
 display: flex;
 background-color: peachpuff;
 flex-wrap: wrap;
-margin-left: 640px;
-margin-right: 500px;
+max-width: 320px;
+max-height: 320px;
+justify-content: center;
+align-content: center;
+border: 2px solid red;
 }
 
 .gridbox{
-    padding: 10px;
     background-color: white;
-    border: 2px solid black;
+
 }
 
 body{
