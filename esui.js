@@ -55,7 +55,7 @@ eight.addEventListener("click",()=>{
     
     container.innerHTML = '';
 
-    for(let i=0;i<=63;i++){
+    for(let i=0;i<(8*8);i++){
         const box = document.createElement("div");
         box.classList="gridbox"
         box.style.padding= "35px"
@@ -75,7 +75,7 @@ sixteen.addEventListener("click",()=>{
     
     container.innerHTML = '';
     
-    for(let i=0;i<=255;i++){
+    for(let i=0;i<(16*16);i++){
         const box = document.createElement("div");
         box.classList="gridbox"
         box.style.padding= "17.5px"
@@ -93,7 +93,7 @@ thirtysix.addEventListener("click",()=>{
 
     container.innerHTML = '';
 
-    for(let i=0;i<=1023;i++){
+    for(let i=0;i<(32*32);i++){
         const box = document.createElement("div");
         box.classList="gridbox"
         box.style.padding= "8.75px"
@@ -112,7 +112,7 @@ sixtyfour.addEventListener("click",()=>{
     
     container.innerHTML = '';
 
-    for(let i=0;i<=4095;i++){
+    for(let i=0;i<(64*64);i++){
         const box = document.createElement("div");
         box.classList="gridbox"
         box.style.padding= "4.375px"
@@ -130,7 +130,7 @@ onetwoeight.addEventListener("click",()=>{
 
     container.innerHTML = '';
 
-    for(let i=0;i<=16383;i++){
+    for(let i=0;i<(128*128);i++){
         const box = document.createElement("div");
         box.classList="gridbox"
         box.style.padding= "2.1875px"
