@@ -3,10 +3,8 @@ margin-top: 50px;
 display: flex;
 background-color: peachpuff;
 flex-wrap: wrap;
-max-width: 320px;
-max-height: 320px;
-justify-content: center;
-align-content: center;
+max-width: 560px;
+max-height: 560px;
 border: 2px solid red;
 }
 
@@ -21,4 +19,31 @@ body{
 
 .gridbox:hover{
     background-color: black;
+}
+
+#containerscont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    padding: 3px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: pink;
 }
